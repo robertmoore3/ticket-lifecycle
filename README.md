@@ -6,10 +6,6 @@
 This tutorial outlines the lifecycle of a ticket from intake to resolution within the open-source help desk ticketing system osTicket.<br />
 
 
-<h2>Video Demonstration</h2>
-
-- ### [YouTube: How to create, work, and resolves tickets within osTicket](https://www.youtube.com)
-
 <h2>Environments and Technologies Used</h2>
 
 - Microsoft Azure (Virtual Machines/Compute)
@@ -29,26 +25,29 @@ This tutorial outlines the lifecycle of a ticket from intake to resolution withi
 
 <h2>Lifecycle Stages</h2>
 
+<h3>Ticket Creation</h3>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src='https://github.com/user-attachments/assets/5ea1fd64-fb2a-44b2-a2dc-531a6de1fd5d'/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+This is the beginning of the ticket lifecycle. Tickets can be created by end-users or Help Desk Agents. The request contains details about the issue so that the agents can understand the nature and ugency of said issue. At this stage, the ticket is in the system but may not have the proper properties yet.
 </p>
 <br />
 
+<h3>Observe and/or Set Ticket Properties</h3>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/user-attachments/assets/dda66c61-f75d-4b56-a5ae-15fa22c34ec5"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+The ticket is then observed by a Help Desk agent. They examine its priority, assigned department, SLA, and whether it has been assigned to a specific agent. If needed, the agent updates or refines these properties. The agent determines the appropriate SLA based on urgency and the relevant department that should handle the request. Proper categorization ensures that the ticket is addressed within the expected timeframe and by the correct team.
+</p>
+<br />
+
+<h3>Work Ticket to Completion</h3>
+<p>
+<img src="https://github.com/user-attachments/assets/13afa494-fa96-4346-92da-9cf4399fed05"/>
+</p>
+<p>
+The assigned agent works on resolving the ticket. This may involve troubleshooting, communicating with the user, or escalating the issue if necessary. The goal is to fully resolve the problem in accordance with the assigned SLA. Once the issue is resolved, the agent marks the ticket as closed, confirming that the request has been completed. The ticket is then archived for future reference, and the user is notified of the resolution.
 </p>
 <br />
